@@ -16,6 +16,7 @@
 		40B3685A20D69340009C1684 /* JJKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B3685920D69340009C1684 /* JJKitTests.m */; };
 		40B3686520D69340009C1684 /* JJKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B3686420D69340009C1684 /* JJKitUITests.m */; };
 		40B3687520D69372009C1684 /* NSString+JJKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B3687420D69372009C1684 /* NSString+JJKit.m */; };
+		AA3AE2EB1F391E5581E064ED /* libPods-JJKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8612B51748F0CCC351430C /* libPods-JJKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,9 @@
 		40B3686620D69340009C1684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40B3687320D69372009C1684 /* NSString+JJKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JJKit.h"; sourceTree = "<group>"; };
 		40B3687420D69372009C1684 /* NSString+JJKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JJKit.m"; sourceTree = "<group>"; };
+		6D8612B51748F0CCC351430C /* libPods-JJKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JJKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DFBB203A38AF439C1F7636 /* Pods-JJKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJKit/Pods-JJKit.release.xcconfig"; sourceTree = "<group>"; };
+		D0A79405FFC6361C03A47238 /* Pods-JJKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJKit/Pods-JJKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3AE2EB1F391E5581E064ED /* libPods-JJKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,8 @@
 				40B3685820D6933F009C1684 /* JJKitTests */,
 				40B3686320D69340009C1684 /* JJKitUITests */,
 				40B3683D20D6933F009C1684 /* Products */,
+				5460F6C15E1014F4565F72F3 /* Pods */,
+				A88079015F5CEAF23DE924D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +160,23 @@
 			path = JJKit;
 			sourceTree = "<group>";
 		};
+		5460F6C15E1014F4565F72F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0A79405FFC6361C03A47238 /* Pods-JJKit.debug.xcconfig */,
+				A4DFBB203A38AF439C1F7636 /* Pods-JJKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A88079015F5CEAF23DE924D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D8612B51748F0CCC351430C /* libPods-JJKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40B3686920D69340009C1684 /* Build configuration list for PBXNativeTarget "JJKit" */;
 			buildPhases = (
+				C217081448450EB2E0B8F0F5 /* [CP] Check Pods Manifest.lock */,
 				40B3683820D6933F009C1684 /* Sources */,
 				40B3683920D6933F009C1684 /* Frameworks */,
 				40B3683A20D6933F009C1684 /* Resources */,
+				1CA3DF06D306D58BDD1449BE /* [CP] Embed Pods Frameworks */,
+				E6E81370EE6CE4C20DCC6937 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,6 +307,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CA3DF06D306D58BDD1449BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJKit/Pods-JJKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C217081448450EB2E0B8F0F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6E81370EE6CE4C20DCC6937 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJKit/Pods-JJKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		40B3683820D6933F009C1684 /* Sources */ = {
@@ -436,6 +514,7 @@
 		};
 		40B3686A20D69340009C1684 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A79405FFC6361C03A47238 /* Pods-JJKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JJKit/Info.plist;
@@ -447,6 +526,7 @@
 		};
 		40B3686B20D69340009C1684 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4DFBB203A38AF439C1F7636 /* Pods-JJKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JJKit/Info.plist;
