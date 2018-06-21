@@ -16,6 +16,7 @@
 		617811F020DB861D00A9596B /* JJKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617811EF20DB861D00A9596B /* JJKitTests.m */; };
 		617811FB20DB861D00A9596B /* JJKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617811FA20DB861D00A9596B /* JJKitUITests.m */; };
 		6178120E20DB889900A9596B /* NSString+JJKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6178120D20DB889900A9596B /* NSString+JJKit.m */; };
+		6178121B20DBA0ED00A9596B /* NSString+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 6178121A20DBA0ED00A9596B /* NSString+Extra.m */; };
 		EEA9CA3AF96C6BF9A4EE0895 /* libPods-JJKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F10FF646B301373222E29E7 /* libPods-JJKit.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,8 @@
 		617811FC20DB861D00A9596B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6178120C20DB889900A9596B /* NSString+JJKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JJKit.h"; sourceTree = "<group>"; };
 		6178120D20DB889900A9596B /* NSString+JJKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JJKit.m"; sourceTree = "<group>"; };
+		6178121920DBA0ED00A9596B /* NSString+Extra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extra.h"; sourceTree = "<group>"; };
+		6178121A20DBA0ED00A9596B /* NSString+Extra.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extra.m"; sourceTree = "<group>"; };
 		BB67E439D5C660E52EDF6893 /* Pods-JJKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJKit/Pods-JJKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,10 +157,20 @@
 		6178120820DB883600A9596B /* JJKit */ = {
 			isa = PBXGroup;
 			children = (
+				6178121820DBA0DF00A9596B /* Extra */,
 				6178120C20DB889900A9596B /* NSString+JJKit.h */,
 				6178120D20DB889900A9596B /* NSString+JJKit.m */,
 			);
 			path = JJKit;
+			sourceTree = "<group>";
+		};
+		6178121820DBA0DF00A9596B /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				6178121920DBA0ED00A9596B /* NSString+Extra.h */,
+				6178121A20DBA0ED00A9596B /* NSString+Extra.m */,
+			);
+			path = Extra;
 			sourceTree = "<group>";
 		};
 		D6B966B292C792679DF71132 /* Pods */ = {
@@ -328,6 +341,7 @@
 				617811E620DB861C00A9596B /* main.m in Sources */,
 				6178120E20DB889900A9596B /* NSString+JJKit.m in Sources */,
 				617811D820DB861C00A9596B /* AppDelegate.m in Sources */,
+				6178121B20DBA0ED00A9596B /* NSString+Extra.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
