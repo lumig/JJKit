@@ -15,8 +15,6 @@
 		617811E620DB861C00A9596B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 617811E520DB861C00A9596B /* main.m */; };
 		617811F020DB861D00A9596B /* JJKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617811EF20DB861D00A9596B /* JJKitTests.m */; };
 		617811FB20DB861D00A9596B /* JJKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617811FA20DB861D00A9596B /* JJKitUITests.m */; };
-		6178120E20DB889900A9596B /* NSString+JJKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6178120D20DB889900A9596B /* NSString+JJKit.m */; };
-		6178121B20DBA0ED00A9596B /* NSString+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 6178121A20DBA0ED00A9596B /* NSString+Extra.m */; };
 		EEA9CA3AF96C6BF9A4EE0895 /* libPods-JJKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F10FF646B301373222E29E7 /* libPods-JJKit.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +38,7 @@
 /* Begin PBXFileReference section */
 		06CEAD9F7812A57609A7A765 /* Pods-JJKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJKit/Pods-JJKit.debug.xcconfig"; sourceTree = "<group>"; };
 		4F10FF646B301373222E29E7 /* libPods-JJKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JJKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6131F58F20DC923700D465CE /* JJKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JJKit; sourceTree = "<group>"; };
 		617811D320DB861C00A9596B /* JJKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		617811D620DB861C00A9596B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		617811D720DB861C00A9596B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,10 +55,6 @@
 		617811F620DB861D00A9596B /* JJKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		617811FA20DB861D00A9596B /* JJKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJKitUITests.m; sourceTree = "<group>"; };
 		617811FC20DB861D00A9596B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6178120C20DB889900A9596B /* NSString+JJKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JJKit.h"; sourceTree = "<group>"; };
-		6178120D20DB889900A9596B /* NSString+JJKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JJKit.m"; sourceTree = "<group>"; };
-		6178121920DBA0ED00A9596B /* NSString+Extra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extra.h"; sourceTree = "<group>"; };
-		6178121A20DBA0ED00A9596B /* NSString+Extra.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extra.m"; sourceTree = "<group>"; };
 		BB67E439D5C660E52EDF6893 /* Pods-JJKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJKit/Pods-JJKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,7 +117,7 @@
 		617811D520DB861C00A9596B /* JJKit */ = {
 			isa = PBXGroup;
 			children = (
-				6178120820DB883600A9596B /* JJKit */,
+				6131F58F20DC923700D465CE /* JJKit */,
 				617811D620DB861C00A9596B /* AppDelegate.h */,
 				617811D720DB861C00A9596B /* AppDelegate.m */,
 				617811D920DB861C00A9596B /* ViewController.h */,
@@ -152,25 +147,6 @@
 				617811FC20DB861D00A9596B /* Info.plist */,
 			);
 			path = JJKitUITests;
-			sourceTree = "<group>";
-		};
-		6178120820DB883600A9596B /* JJKit */ = {
-			isa = PBXGroup;
-			children = (
-				6178121820DBA0DF00A9596B /* Extra */,
-				6178120C20DB889900A9596B /* NSString+JJKit.h */,
-				6178120D20DB889900A9596B /* NSString+JJKit.m */,
-			);
-			path = JJKit;
-			sourceTree = "<group>";
-		};
-		6178121820DBA0DF00A9596B /* Extra */ = {
-			isa = PBXGroup;
-			children = (
-				6178121920DBA0ED00A9596B /* NSString+Extra.h */,
-				6178121A20DBA0ED00A9596B /* NSString+Extra.m */,
-			);
-			path = Extra;
 			sourceTree = "<group>";
 		};
 		D6B966B292C792679DF71132 /* Pods */ = {
@@ -339,9 +315,7 @@
 			files = (
 				617811DB20DB861C00A9596B /* ViewController.m in Sources */,
 				617811E620DB861C00A9596B /* main.m in Sources */,
-				6178120E20DB889900A9596B /* NSString+JJKit.m in Sources */,
 				617811D820DB861C00A9596B /* AppDelegate.m in Sources */,
-				6178121B20DBA0ED00A9596B /* NSString+Extra.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
