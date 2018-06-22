@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "lumig" => "lumic@sina.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/lumig/JJKit.git", :tag => "#{s.version}" }
-  s.source_files  = "JJKit/JJKit/**/*.{h,m}"
+  s.source_files  = "JJKit/JJKit/*.{h,m}"
   s.requires_arc = true
   # s.exclude_files = "Classes/Exclude"
   #s.dependency 'AFNetworking'
