@@ -7,7 +7,8 @@
 //
 
 #import "NSString+Extra.h"
-
+//#import "YYKit.h"
+#import "AFNetworking.h"
 @implementation NSString (Extra)
 
 - (void)lumig

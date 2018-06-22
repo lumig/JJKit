@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source_files  = "JJKit/JJKit/**/*.{h,m}"
   s.requires_arc = true
   # s.exclude_files = "Classes/Exclude"
-  #s.dependency 'AFNetworking'
-  s.dependency 'YYKit'
+  s.dependency 'AFNetworking'
+  #s.dependency 'YYKit'
 
 end
