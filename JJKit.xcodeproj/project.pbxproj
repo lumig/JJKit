@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6131F59E20DC93C800D465CE /* NSString+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 6131F59B20DC93C700D465CE /* NSString+Extra.m */; };
-		6131F59F20DC93C800D465CE /* NSString+JJKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6131F59D20DC93C700D465CE /* NSString+JJKit.m */; };
 		617811D820DB861C00A9596B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 617811D720DB861C00A9596B /* AppDelegate.m */; };
 		617811DB20DB861C00A9596B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617811DA20DB861C00A9596B /* ViewController.m */; };
 		617811DE20DB861C00A9596B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617811DC20DB861C00A9596B /* Main.storyboard */; };
@@ -17,6 +15,32 @@
 		617811E620DB861C00A9596B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 617811E520DB861C00A9596B /* main.m */; };
 		617811F020DB861D00A9596B /* JJKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617811EF20DB861D00A9596B /* JJKitTests.m */; };
 		617811FB20DB861D00A9596B /* JJKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617811FA20DB861D00A9596B /* JJKitUITests.m */; };
+		61D19C9820E4724200CE0EAE /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C7920E4724200CE0EAE /* Action.m */; };
+		61D19C9920E4724200CE0EAE /* JJActionJump.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C7B20E4724200CE0EAE /* JJActionJump.m */; };
+		61D19C9A20E4724200CE0EAE /* JJActionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C7D20E4724200CE0EAE /* JJActionService.m */; };
+		61D19C9B20E4724200CE0EAE /* FTBannerWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C8320E4724200CE0EAE /* FTBannerWebViewController.m */; };
+		61D19C9C20E4724200CE0EAE /* JJWebVCModuleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C8520E4724200CE0EAE /* JJWebVCModuleProvider.m */; };
+		61D19C9D20E4724200CE0EAE /* JJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C8920E4724200CE0EAE /* JJLoginViewController.m */; };
+		61D19C9E20E4724200CE0EAE /* JJLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61D19C8A20E4724200CE0EAE /* JJLoginViewController.xib */; };
+		61D19C9F20E4724200CE0EAE /* JJLoginProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C8D20E4724200CE0EAE /* JJLoginProvider.m */; };
+		61D19CA020E4724200CE0EAE /* AppDelegateRealize.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C9020E4724200CE0EAE /* AppDelegateRealize.m */; };
+		61D19CA120E4724200CE0EAE /* JJAppDelegateModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C9220E4724200CE0EAE /* JJAppDelegateModule.m */; };
+		61D19CA220E4724200CE0EAE /* JJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C9420E4724200CE0EAE /* JJRouter.m */; };
+		61D19CA320E4724200CE0EAE /* RouterMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C9620E4724200CE0EAE /* RouterMsgSend.m */; };
+		61D19CA420E4724200CE0EAE /* JJMainModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C9720E4724200CE0EAE /* JJMainModule.m */; };
+		61D19CCA20E474F400CE0EAE /* JJNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19CA720E474F400CE0EAE /* JJNotify.m */; };
+		61D19CCB20E474F400CE0EAE /* NSObject+CurrentNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19CAD20E474F400CE0EAE /* NSObject+CurrentNav.m */; };
+		61D19CCC20E474F400CE0EAE /* NSObject+JJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19CAF20E474F400CE0EAE /* NSObject+JJModel.m */; };
+		61D19CCD20E474F400CE0EAE /* NSObject+ObjDic.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19CB120E474F400CE0EAE /* NSObject+ObjDic.m */; };
+		61D19CCE20E474F400CE0EAE /* UIResponder+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19CB320E474F400CE0EAE /* UIResponder+Event.m */; };
+		61D19CCF20E474F400CE0EAE /* UIView+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19CB520E474F400CE0EAE /* UIView+Event.m */; };
+		61D19CD020E474F400CE0EAE /* UIViewController+JJNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19CB720E474F400CE0EAE /* UIViewController+JJNavBar.m */; };
+		61D19CD120E474F400CE0EAE /* JJResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19CBA20E474F400CE0EAE /* JJResource.m */; };
+		61D19CD220E474F400CE0EAE /* JJFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19CBE20E474F400CE0EAE /* JJFunc.m */; };
+		61D19CD320E474F400CE0EAE /* JJBaseModuleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19CC120E474F400CE0EAE /* JJBaseModuleProvider.m */; };
+		61D19CD420E474F400CE0EAE /* JJProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19CC520E474F400CE0EAE /* JJProtocolManager.m */; };
+		61D19CD520E474F400CE0EAE /* UIView+JJModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19CC720E474F400CE0EAE /* UIView+JJModule.m */; };
+		61D19CD620E474F400CE0EAE /* UIViewController+JJModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19CC920E474F400CE0EAE /* UIViewController+JJModule.m */; };
 		EEA9CA3AF96C6BF9A4EE0895 /* libPods-JJKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F10FF646B301373222E29E7 /* libPods-JJKit.a */; };
 /* End PBXBuildFile section */
 
@@ -40,11 +64,6 @@
 /* Begin PBXFileReference section */
 		06CEAD9F7812A57609A7A765 /* Pods-JJKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJKit/Pods-JJKit.debug.xcconfig"; sourceTree = "<group>"; };
 		4F10FF646B301373222E29E7 /* libPods-JJKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JJKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6131F59A20DC93C700D465CE /* NSString+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extra.h"; sourceTree = "<group>"; };
-		6131F59B20DC93C700D465CE /* NSString+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extra.m"; sourceTree = "<group>"; };
-		6131F59C20DC93C700D465CE /* NSString+JJKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JJKit.h"; sourceTree = "<group>"; };
-		6131F59D20DC93C700D465CE /* NSString+JJKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JJKit.m"; sourceTree = "<group>"; };
-		6131F5A020DC93DA00D465CE /* JJKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJKit.h; sourceTree = "<group>"; };
 		617811D320DB861C00A9596B /* JJKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		617811D620DB861C00A9596B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		617811D720DB861C00A9596B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +80,65 @@
 		617811F620DB861D00A9596B /* JJKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		617811FA20DB861D00A9596B /* JJKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJKitUITests.m; sourceTree = "<group>"; };
 		617811FC20DB861D00A9596B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D19C7220E4724100CE0EAE /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		61D19C7320E4724100CE0EAE /* JJMainModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMainModule.h; sourceTree = "<group>"; };
+		61D19C7620E4724200CE0EAE /* JJActionJumpMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJActionJumpMacro.h; sourceTree = "<group>"; };
+		61D19C7820E4724200CE0EAE /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		61D19C7920E4724200CE0EAE /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+		61D19C7A20E4724200CE0EAE /* JJActionJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJActionJump.h; sourceTree = "<group>"; };
+		61D19C7B20E4724200CE0EAE /* JJActionJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJActionJump.m; sourceTree = "<group>"; };
+		61D19C7C20E4724200CE0EAE /* JJActionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJActionService.h; sourceTree = "<group>"; };
+		61D19C7D20E4724200CE0EAE /* JJActionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJActionService.m; sourceTree = "<group>"; };
+		61D19C8020E4724200CE0EAE /* JJWebviewVCModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJWebviewVCModuleProtocol.h; sourceTree = "<group>"; };
+		61D19C8220E4724200CE0EAE /* FTBannerWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBannerWebViewController.h; sourceTree = "<group>"; };
+		61D19C8320E4724200CE0EAE /* FTBannerWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBannerWebViewController.m; sourceTree = "<group>"; };
+		61D19C8420E4724200CE0EAE /* JJWebVCModuleProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJWebVCModuleProvider.h; sourceTree = "<group>"; };
+		61D19C8520E4724200CE0EAE /* JJWebVCModuleProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJWebVCModuleProvider.m; sourceTree = "<group>"; };
+		61D19C8720E4724200CE0EAE /* JJLoginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJLoginProtocol.h; sourceTree = "<group>"; };
+		61D19C8820E4724200CE0EAE /* JJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJLoginViewController.h; sourceTree = "<group>"; };
+		61D19C8920E4724200CE0EAE /* JJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJLoginViewController.m; sourceTree = "<group>"; };
+		61D19C8A20E4724200CE0EAE /* JJLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJLoginViewController.xib; sourceTree = "<group>"; };
+		61D19C8C20E4724200CE0EAE /* JJLoginProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJLoginProvider.h; sourceTree = "<group>"; };
+		61D19C8D20E4724200CE0EAE /* JJLoginProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJLoginProvider.m; sourceTree = "<group>"; };
+		61D19C8F20E4724200CE0EAE /* AppDelegateRealize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegateRealize.h; sourceTree = "<group>"; };
+		61D19C9020E4724200CE0EAE /* AppDelegateRealize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateRealize.m; sourceTree = "<group>"; };
+		61D19C9120E4724200CE0EAE /* JJAppDelegateModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJAppDelegateModule.h; sourceTree = "<group>"; };
+		61D19C9220E4724200CE0EAE /* JJAppDelegateModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJAppDelegateModule.m; sourceTree = "<group>"; };
+		61D19C9320E4724200CE0EAE /* JJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRouter.h; sourceTree = "<group>"; };
+		61D19C9420E4724200CE0EAE /* JJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRouter.m; sourceTree = "<group>"; };
+		61D19C9520E4724200CE0EAE /* RouterMsgSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterMsgSend.h; sourceTree = "<group>"; };
+		61D19C9620E4724200CE0EAE /* RouterMsgSend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterMsgSend.m; sourceTree = "<group>"; };
+		61D19C9720E4724200CE0EAE /* JJMainModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMainModule.m; sourceTree = "<group>"; };
+		61D19CA620E474F400CE0EAE /* JJNotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNotify.h; sourceTree = "<group>"; };
+		61D19CA720E474F400CE0EAE /* JJNotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNotify.m; sourceTree = "<group>"; };
+		61D19CA920E474F400CE0EAE /* JJMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMacro.h; sourceTree = "<group>"; };
+		61D19CAA20E474F400CE0EAE /* JJKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJKit.h; sourceTree = "<group>"; };
+		61D19CAC20E474F400CE0EAE /* NSObject+CurrentNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CurrentNav.h"; sourceTree = "<group>"; };
+		61D19CAD20E474F400CE0EAE /* NSObject+CurrentNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CurrentNav.m"; sourceTree = "<group>"; };
+		61D19CAE20E474F400CE0EAE /* NSObject+JJModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JJModel.h"; sourceTree = "<group>"; };
+		61D19CAF20E474F400CE0EAE /* NSObject+JJModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JJModel.m"; sourceTree = "<group>"; };
+		61D19CB020E474F400CE0EAE /* NSObject+ObjDic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjDic.h"; sourceTree = "<group>"; };
+		61D19CB120E474F400CE0EAE /* NSObject+ObjDic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjDic.m"; sourceTree = "<group>"; };
+		61D19CB220E474F400CE0EAE /* UIResponder+Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Event.h"; sourceTree = "<group>"; };
+		61D19CB320E474F400CE0EAE /* UIResponder+Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Event.m"; sourceTree = "<group>"; };
+		61D19CB420E474F400CE0EAE /* UIView+Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Event.h"; sourceTree = "<group>"; };
+		61D19CB520E474F400CE0EAE /* UIView+Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Event.m"; sourceTree = "<group>"; };
+		61D19CB620E474F400CE0EAE /* UIViewController+JJNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JJNavBar.h"; sourceTree = "<group>"; };
+		61D19CB720E474F400CE0EAE /* UIViewController+JJNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JJNavBar.m"; sourceTree = "<group>"; };
+		61D19CB920E474F400CE0EAE /* JJResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJResource.h; sourceTree = "<group>"; };
+		61D19CBA20E474F400CE0EAE /* JJResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJResource.m; sourceTree = "<group>"; };
+		61D19CBD20E474F400CE0EAE /* JJFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJFunc.h; sourceTree = "<group>"; };
+		61D19CBE20E474F400CE0EAE /* JJFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJFunc.m; sourceTree = "<group>"; };
+		61D19CC020E474F400CE0EAE /* JJBaseModuleProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJBaseModuleProvider.h; sourceTree = "<group>"; };
+		61D19CC120E474F400CE0EAE /* JJBaseModuleProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJBaseModuleProvider.m; sourceTree = "<group>"; };
+		61D19CC220E474F400CE0EAE /* JJBaseProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJBaseProtocol.h; sourceTree = "<group>"; };
+		61D19CC320E474F400CE0EAE /* JJProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJProtocol.h; sourceTree = "<group>"; };
+		61D19CC420E474F400CE0EAE /* JJProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJProtocolManager.h; sourceTree = "<group>"; };
+		61D19CC520E474F400CE0EAE /* JJProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJProtocolManager.m; sourceTree = "<group>"; };
+		61D19CC620E474F400CE0EAE /* UIView+JJModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJModule.h"; sourceTree = "<group>"; };
+		61D19CC720E474F400CE0EAE /* UIView+JJModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJModule.m"; sourceTree = "<group>"; };
+		61D19CC820E474F400CE0EAE /* UIViewController+JJModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JJModule.h"; sourceTree = "<group>"; };
+		61D19CC920E474F400CE0EAE /* UIViewController+JJModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JJModule.m"; sourceTree = "<group>"; };
 		BB67E439D5C660E52EDF6893 /* Pods-JJKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJKit/Pods-JJKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,21 +179,16 @@
 		6131F59820DC93C700D465CE /* JJKit */ = {
 			isa = PBXGroup;
 			children = (
-				6131F59920DC93C700D465CE /* Extra */,
-				6131F5A020DC93DA00D465CE /* JJKit.h */,
+				61D19CAB20E474F400CE0EAE /* Category */,
+				61D19CBC20E474F400CE0EAE /* JJFunc */,
+				61D19CAA20E474F400CE0EAE /* JJKit.h */,
+				61D19CA520E474F400CE0EAE /* JJNotify */,
+				61D19CBF20E474F400CE0EAE /* JJProtocol */,
+				61D19CB820E474F400CE0EAE /* JJResource */,
+				61D19CBB20E474F400CE0EAE /* lib */,
+				61D19CA820E474F400CE0EAE /* Macro */,
 			);
 			path = JJKit;
-			sourceTree = "<group>";
-		};
-		6131F59920DC93C700D465CE /* Extra */ = {
-			isa = PBXGroup;
-			children = (
-				6131F59A20DC93C700D465CE /* NSString+Extra.h */,
-				6131F59B20DC93C700D465CE /* NSString+Extra.m */,
-				6131F59C20DC93C700D465CE /* NSString+JJKit.h */,
-				6131F59D20DC93C700D465CE /* NSString+JJKit.m */,
-			);
-			path = Extra;
 			sourceTree = "<group>";
 		};
 		617811CA20DB861C00A9596B = {
@@ -143,6 +216,13 @@
 		617811D520DB861C00A9596B /* JJKit */ = {
 			isa = PBXGroup;
 			children = (
+				61D19C7220E4724100CE0EAE /* PrefixHeader.pch */,
+				61D19C7320E4724100CE0EAE /* JJMainModule.h */,
+				61D19C9720E4724200CE0EAE /* JJMainModule.m */,
+				61D19C7420E4724200CE0EAE /* JJActionJump */,
+				61D19C8E20E4724200CE0EAE /* JJRouter */,
+				61D19C8620E4724200CE0EAE /* Login */,
+				61D19C7E20E4724200CE0EAE /* WebView */,
 				6131F59820DC93C700D465CE /* JJKit */,
 				617811D620DB861C00A9596B /* AppDelegate.h */,
 				617811D720DB861C00A9596B /* AppDelegate.m */,
@@ -173,6 +253,178 @@
 				617811FC20DB861D00A9596B /* Info.plist */,
 			);
 			path = JJKitUITests;
+			sourceTree = "<group>";
+		};
+		61D19C7420E4724200CE0EAE /* JJActionJump */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C7520E4724200CE0EAE /* Macro */,
+				61D19C7720E4724200CE0EAE /* source */,
+			);
+			path = JJActionJump;
+			sourceTree = "<group>";
+		};
+		61D19C7520E4724200CE0EAE /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C7620E4724200CE0EAE /* JJActionJumpMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		61D19C7720E4724200CE0EAE /* source */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C7820E4724200CE0EAE /* Action.h */,
+				61D19C7920E4724200CE0EAE /* Action.m */,
+				61D19C7A20E4724200CE0EAE /* JJActionJump.h */,
+				61D19C7B20E4724200CE0EAE /* JJActionJump.m */,
+				61D19C7C20E4724200CE0EAE /* JJActionService.h */,
+				61D19C7D20E4724200CE0EAE /* JJActionService.m */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		61D19C7E20E4724200CE0EAE /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C7F20E4724200CE0EAE /* Protocol */,
+				61D19C8120E4724200CE0EAE /* Source */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		61D19C7F20E4724200CE0EAE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C8020E4724200CE0EAE /* JJWebviewVCModuleProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		61D19C8120E4724200CE0EAE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C8220E4724200CE0EAE /* FTBannerWebViewController.h */,
+				61D19C8320E4724200CE0EAE /* FTBannerWebViewController.m */,
+				61D19C8420E4724200CE0EAE /* JJWebVCModuleProvider.h */,
+				61D19C8520E4724200CE0EAE /* JJWebVCModuleProvider.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		61D19C8620E4724200CE0EAE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C8720E4724200CE0EAE /* JJLoginProtocol.h */,
+				61D19C8820E4724200CE0EAE /* JJLoginViewController.h */,
+				61D19C8920E4724200CE0EAE /* JJLoginViewController.m */,
+				61D19C8A20E4724200CE0EAE /* JJLoginViewController.xib */,
+				61D19C8B20E4724200CE0EAE /* Source */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		61D19C8B20E4724200CE0EAE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C8C20E4724200CE0EAE /* JJLoginProvider.h */,
+				61D19C8D20E4724200CE0EAE /* JJLoginProvider.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		61D19C8E20E4724200CE0EAE /* JJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C8F20E4724200CE0EAE /* AppDelegateRealize.h */,
+				61D19C9020E4724200CE0EAE /* AppDelegateRealize.m */,
+				61D19C9120E4724200CE0EAE /* JJAppDelegateModule.h */,
+				61D19C9220E4724200CE0EAE /* JJAppDelegateModule.m */,
+				61D19C9320E4724200CE0EAE /* JJRouter.h */,
+				61D19C9420E4724200CE0EAE /* JJRouter.m */,
+				61D19C9520E4724200CE0EAE /* RouterMsgSend.h */,
+				61D19C9620E4724200CE0EAE /* RouterMsgSend.m */,
+			);
+			path = JJRouter;
+			sourceTree = "<group>";
+		};
+		61D19CA520E474F400CE0EAE /* JJNotify */ = {
+			isa = PBXGroup;
+			children = (
+				61D19CA620E474F400CE0EAE /* JJNotify.h */,
+				61D19CA720E474F400CE0EAE /* JJNotify.m */,
+			);
+			path = JJNotify;
+			sourceTree = "<group>";
+		};
+		61D19CA820E474F400CE0EAE /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				61D19CA920E474F400CE0EAE /* JJMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		61D19CAB20E474F400CE0EAE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				61D19CAC20E474F400CE0EAE /* NSObject+CurrentNav.h */,
+				61D19CAD20E474F400CE0EAE /* NSObject+CurrentNav.m */,
+				61D19CAE20E474F400CE0EAE /* NSObject+JJModel.h */,
+				61D19CAF20E474F400CE0EAE /* NSObject+JJModel.m */,
+				61D19CB020E474F400CE0EAE /* NSObject+ObjDic.h */,
+				61D19CB120E474F400CE0EAE /* NSObject+ObjDic.m */,
+				61D19CB220E474F400CE0EAE /* UIResponder+Event.h */,
+				61D19CB320E474F400CE0EAE /* UIResponder+Event.m */,
+				61D19CB420E474F400CE0EAE /* UIView+Event.h */,
+				61D19CB520E474F400CE0EAE /* UIView+Event.m */,
+				61D19CB620E474F400CE0EAE /* UIViewController+JJNavBar.h */,
+				61D19CB720E474F400CE0EAE /* UIViewController+JJNavBar.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		61D19CB820E474F400CE0EAE /* JJResource */ = {
+			isa = PBXGroup;
+			children = (
+				61D19CB920E474F400CE0EAE /* JJResource.h */,
+				61D19CBA20E474F400CE0EAE /* JJResource.m */,
+			);
+			path = JJResource;
+			sourceTree = "<group>";
+		};
+		61D19CBB20E474F400CE0EAE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		61D19CBC20E474F400CE0EAE /* JJFunc */ = {
+			isa = PBXGroup;
+			children = (
+				61D19CBD20E474F400CE0EAE /* JJFunc.h */,
+				61D19CBE20E474F400CE0EAE /* JJFunc.m */,
+			);
+			path = JJFunc;
+			sourceTree = "<group>";
+		};
+		61D19CBF20E474F400CE0EAE /* JJProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				61D19CC020E474F400CE0EAE /* JJBaseModuleProvider.h */,
+				61D19CC120E474F400CE0EAE /* JJBaseModuleProvider.m */,
+				61D19CC220E474F400CE0EAE /* JJBaseProtocol.h */,
+				61D19CC320E474F400CE0EAE /* JJProtocol.h */,
+				61D19CC420E474F400CE0EAE /* JJProtocolManager.h */,
+				61D19CC520E474F400CE0EAE /* JJProtocolManager.m */,
+				61D19CC620E474F400CE0EAE /* UIView+JJModule.h */,
+				61D19CC720E474F400CE0EAE /* UIView+JJModule.m */,
+				61D19CC820E474F400CE0EAE /* UIViewController+JJModule.h */,
+				61D19CC920E474F400CE0EAE /* UIViewController+JJModule.m */,
+			);
+			path = JJProtocol;
 			sourceTree = "<group>";
 		};
 		D6B966B292C792679DF71132 /* Pods */ = {
@@ -293,6 +545,7 @@
 			files = (
 				617811E320DB861C00A9596B /* LaunchScreen.storyboard in Resources */,
 				617811E020DB861C00A9596B /* Assets.xcassets in Resources */,
+				61D19C9E20E4724200CE0EAE /* JJLoginViewController.xib in Resources */,
 				617811DE20DB861C00A9596B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,10 +592,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D19CD020E474F400CE0EAE /* UIViewController+JJNavBar.m in Sources */,
+				61D19CD420E474F400CE0EAE /* JJProtocolManager.m in Sources */,
 				617811DB20DB861C00A9596B /* ViewController.m in Sources */,
+				61D19C9820E4724200CE0EAE /* Action.m in Sources */,
+				61D19CCA20E474F400CE0EAE /* JJNotify.m in Sources */,
+				61D19CA120E4724200CE0EAE /* JJAppDelegateModule.m in Sources */,
+				61D19CCF20E474F400CE0EAE /* UIView+Event.m in Sources */,
+				61D19CD320E474F400CE0EAE /* JJBaseModuleProvider.m in Sources */,
+				61D19CD620E474F400CE0EAE /* UIViewController+JJModule.m in Sources */,
+				61D19C9D20E4724200CE0EAE /* JJLoginViewController.m in Sources */,
+				61D19CA220E4724200CE0EAE /* JJRouter.m in Sources */,
+				61D19CCD20E474F400CE0EAE /* NSObject+ObjDic.m in Sources */,
+				61D19C9920E4724200CE0EAE /* JJActionJump.m in Sources */,
+				61D19C9B20E4724200CE0EAE /* FTBannerWebViewController.m in Sources */,
+				61D19CD120E474F400CE0EAE /* JJResource.m in Sources */,
+				61D19C9A20E4724200CE0EAE /* JJActionService.m in Sources */,
+				61D19CA020E4724200CE0EAE /* AppDelegateRealize.m in Sources */,
+				61D19CCE20E474F400CE0EAE /* UIResponder+Event.m in Sources */,
+				61D19C9F20E4724200CE0EAE /* JJLoginProvider.m in Sources */,
+				61D19CA320E4724200CE0EAE /* RouterMsgSend.m in Sources */,
 				617811E620DB861C00A9596B /* main.m in Sources */,
-				6131F59F20DC93C800D465CE /* NSString+JJKit.m in Sources */,
-				6131F59E20DC93C800D465CE /* NSString+Extra.m in Sources */,
+				61D19CCC20E474F400CE0EAE /* NSObject+JJModel.m in Sources */,
+				61D19CD220E474F400CE0EAE /* JJFunc.m in Sources */,
+				61D19CD520E474F400CE0EAE /* UIView+JJModule.m in Sources */,
+				61D19CA420E4724200CE0EAE /* JJMainModule.m in Sources */,
+				61D19C9C20E4724200CE0EAE /* JJWebVCModuleProvider.m in Sources */,
+				61D19CCB20E474F400CE0EAE /* NSObject+CurrentNav.m in Sources */,
 				617811D820DB861C00A9596B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +785,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YWEH5GVC2C;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JJKit/PrefixHeader.pch";
 				INFOPLIST_FILE = JJKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -525,6 +802,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YWEH5GVC2C;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JJKit/PrefixHeader.pch";
 				INFOPLIST_FILE = JJKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -1,15 +1,19 @@
 //
 //  JJKit.h
-//  JJKit
+//  MIGUDEMO
 //
-//  Created by luming on 2018/6/22.
+//  Created by luming on 2018/6/11.
 //  Copyright © 2018年 luming. All rights reserved.
 //
 
 #ifndef JJKit_h
 #define JJKit_h
-#ifdef __OBJC__
-#import "NSString+Extra.h"
+#import "JJFunc.h"
+#import "JJMacro.h"
+#import "JJProtocol.h"
+#import "NSObject+CurrentNav.h"
 
-#endif
 #endif /* JJKit_h */
+
+
+
